@@ -1,5 +1,8 @@
 import React from 'react'
 import Card from './components/Card.jsx'
+import vitelogo from './assets/react.svg'
+import hakla from './assets/download.jpg'
+import shakti from './assets/shakti.jpg'
 import './index.css'
 
 function App() {
@@ -7,9 +10,9 @@ function App() {
   return (
     <>
     <div className="cards">
-      <Card name = 'taher ali'/>
-      <Card name='shaktiman'/>
-      <Card name='hakla sharuk'/>
+      <Card name = 'taher ali' imageSrc = {vitelogo}/>
+      <Card name='shaktiman' imageSrc = {shakti}/>
+      <Card name='hakla sharuk' imageSrc = {hakla}/>
     </div>
     </>
   )
