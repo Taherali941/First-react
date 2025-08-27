@@ -1,6 +1,6 @@
 .mm{
     width: 350px;
-    height: 330px;
+    height: 360px;
     padding: 30px;
     border-radius: 5px;
     border: 1px solid black;
@@ -27,6 +27,6 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 90px;
+    height: 110px;
     width: auto;
 }
