@@ -8,14 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
-
   "homepage": "https://taherali941.github.io/First-react/",
-
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
